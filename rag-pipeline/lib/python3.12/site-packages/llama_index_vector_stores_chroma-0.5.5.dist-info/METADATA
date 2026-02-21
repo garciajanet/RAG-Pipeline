@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: llama-index-vector-stores-chroma
+Version: 0.5.5
+Summary: llama-index vector_stores chroma integration
+Author-email: Your Name <you@example.com>
+License-Expression: MIT
+License-File: LICENSE
+Requires-Python: <4.0,>=3.10
+Requires-Dist: chromadb>=0.5.17
+Requires-Dist: llama-index-core<0.15,>=0.13.0
+Description-Content-Type: text/markdown
+
+# LlamaIndex Vector_Stores Integration: Chroma
