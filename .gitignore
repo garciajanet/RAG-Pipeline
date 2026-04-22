@@ -1,0 +1,8 @@
+chroma_db*/
+eval_results/
+__pycache__/
+.venv/
+rag-pipeline/
+*.pyc
+.DS_Store
+.claude/

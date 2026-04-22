@@ -66,7 +66,7 @@ def setup_vector_db(documents):
 def create_query_engine(vector_index):
     """Create configured query engine"""
     query_engine = vector_index.as_query_engine(
-        response_mode="refine",
+        response_mode="compact",
         similarity_top_k=20
     )
     
@@ -104,7 +104,10 @@ if __name__ == "__main__":
     
     # Example queries
     questions = [
-        "What client talked to me about liquidity needs?"
+        "Which client discussed portfolio allocation, risk tolerance, FX hedging, and needed compliance involved?",
+        "Which Realcube clients mentioned sector concentration?",
+        "Which contacts were marked left voicemail will retry and had no real conversation note?",
+        "Which client has the latest follow-up due date, and what is the follow-up?",
     ]
     
     for q in questions:
